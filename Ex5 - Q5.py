@@ -1,4 +1,3 @@
-# from numpy.core.tests.test_scalarinherit import A
 import networkx as nx
 
 
@@ -38,7 +37,7 @@ def print_envy_graph(G):
     for edge in nx.edges(G):
         print(edge)
     if len(nx.edges(G))==0:
-        print("No one is gealous..")
+        print("No one is jealous..")
     print()
 
 
